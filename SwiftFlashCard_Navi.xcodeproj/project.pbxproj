@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD52732B2822478B00003BE5 /* DataBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52732A2822478B00003BE5 /* DataBox.swift */; };
+		CDF80A3A281E83AE00E0765C /* SwiftFlashCard_NaviApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF80A39281E83AE00E0765C /* SwiftFlashCard_NaviApp.swift */; };
+		CDF80A3C281E83AE00E0765C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF80A3B281E83AE00E0765C /* ContentView.swift */; };
+		CDF80A3E281E83B000E0765C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF80A3D281E83B000E0765C /* Assets.xcassets */; };
+		CDF80A41281E83B000E0765C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF80A40281E83B000E0765C /* Preview Assets.xcassets */; };
+		CDF80A48281EB39F00E0765C /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF80A47281EB39F00E0765C /* HomeTabView.swift */; };
+		CDF80A4C281EB40E00E0765C /* FlashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF80A4B281EB40E00E0765C /* FlashView.swift */; };
+		CDF80A4E281EB41C00E0765C /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF80A4D281EB41C00E0765C /* RewardView.swift */; };
+		CDF80A50281EB42A00E0765C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF80A4F281EB42A00E0765C /* ListView.swift */; };
+		CDF80A55281EBC1200E0765C /* GroupingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF80A54281EBC1200E0765C /* GroupingView.swift */; };
+		CDF80A59281EBC2700E0765C /* ShufflingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF80A58281EBC2700E0765C /* ShufflingView.swift */; };
+		CDF80A5B281EBC3000E0765C /* AddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF80A5A281EBC3000E0765C /* AddingView.swift */; };
+		CDF80A5E281FAD3F00E0765C /* StructBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF80A5D281FAD3F00E0765C /* StructBox.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD52732A2822478B00003BE5 /* DataBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBox.swift; sourceTree = "<group>"; };
+		CDF80A36281E83AE00E0765C /* SwiftFlashCard_Navi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFlashCard_Navi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF80A39281E83AE00E0765C /* SwiftFlashCard_NaviApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFlashCard_NaviApp.swift; sourceTree = "<group>"; };
+		CDF80A3B281E83AE00E0765C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDF80A3D281E83B000E0765C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDF80A40281E83B000E0765C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDF80A47281EB39F00E0765C /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		CDF80A4B281EB40E00E0765C /* FlashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashView.swift; sourceTree = "<group>"; };
+		CDF80A4D281EB41C00E0765C /* RewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
+		CDF80A4F281EB42A00E0765C /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		CDF80A54281EBC1200E0765C /* GroupingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupingView.swift; sourceTree = "<group>"; };
+		CDF80A58281EBC2700E0765C /* ShufflingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShufflingView.swift; sourceTree = "<group>"; };
+		CDF80A5A281EBC3000E0765C /* AddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingView.swift; sourceTree = "<group>"; };
+		CDF80A5D281FAD3F00E0765C /* StructBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructBox.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF80A33281E83AE00E0765C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDF80A2D281E83AE00E0765C = {
+			isa = PBXGroup;
+			children = (
+				CDF80A38281E83AE00E0765C /* SwiftFlashCard_Navi */,
+				CDF80A37281E83AE00E0765C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDF80A37281E83AE00E0765C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF80A36281E83AE00E0765C /* SwiftFlashCard_Navi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF80A38281E83AE00E0765C /* SwiftFlashCard_Navi */ = {
+			isa = PBXGroup;
+			children = (
+				CDF80A39281E83AE00E0765C /* SwiftFlashCard_NaviApp.swift */,
+				CDF80A3B281E83AE00E0765C /* ContentView.swift */,
+				CDF80A5C281FAD1100E0765C /* Model */,
+				CDF80A51281EBB7900E0765C /* View */,
+				CDF80A3D281E83B000E0765C /* Assets.xcassets */,
+				CDF80A3F281E83B000E0765C /* Preview Content */,
+			);
+			path = SwiftFlashCard_Navi;
+			sourceTree = "<group>";
+		};
+		CDF80A3F281E83B000E0765C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDF80A40281E83B000E0765C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDF80A51281EBB7900E0765C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDF80A47281EB39F00E0765C /* HomeTabView.swift */,
+				CDF80A52281EBBEF00E0765C /* MainView */,
+				CDF80A53281EBBF900E0765C /* SubView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDF80A52281EBBEF00E0765C /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				CDF80A4F281EB42A00E0765C /* ListView.swift */,
+				CDF80A4B281EB40E00E0765C /* FlashView.swift */,
+				CDF80A4D281EB41C00E0765C /* RewardView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		CDF80A53281EBBF900E0765C /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				CDF80A54281EBC1200E0765C /* GroupingView.swift */,
+				CDF80A58281EBC2700E0765C /* ShufflingView.swift */,
+				CDF80A5A281EBC3000E0765C /* AddingView.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		CDF80A5C281FAD1100E0765C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDF80A5D281FAD3F00E0765C /* StructBox.swift */,
+				CD52732A2822478B00003BE5 /* DataBox.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDF80A35281E83AE00E0765C /* SwiftFlashCard_Navi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF80A44281E83B000E0765C /* Build configuration list for PBXNativeTarget "SwiftFlashCard_Navi" */;
+			buildPhases = (
+				CDF80A32281E83AE00E0765C /* Sources */,
+				CDF80A33281E83AE00E0765C /* Frameworks */,
+				CDF80A34281E83AE00E0765C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftFlashCard_Navi;
+			productName = SwiftFlashCard_Navi;
+			productReference = CDF80A36281E83AE00E0765C /* SwiftFlashCard_Navi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDF80A2E281E83AE00E0765C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CDF80A35281E83AE00E0765C = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CDF80A31281E83AE00E0765C /* Build configuration list for PBXProject "SwiftFlashCard_Navi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDF80A2D281E83AE00E0765C;
+			productRefGroup = CDF80A37281E83AE00E0765C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDF80A35281E83AE00E0765C /* SwiftFlashCard_Navi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDF80A34281E83AE00E0765C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF80A41281E83B000E0765C /* Preview Assets.xcassets in Resources */,
+				CDF80A3E281E83B000E0765C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDF80A32281E83AE00E0765C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF80A59281EBC2700E0765C /* ShufflingView.swift in Sources */,
+				CDF80A55281EBC1200E0765C /* GroupingView.swift in Sources */,
+				CDF80A4C281EB40E00E0765C /* FlashView.swift in Sources */,
+				CDF80A5B281EBC3000E0765C /* AddingView.swift in Sources */,
+				CDF80A4E281EB41C00E0765C /* RewardView.swift in Sources */,
+				CDF80A50281EB42A00E0765C /* ListView.swift in Sources */,
+				CDF80A48281EB39F00E0765C /* HomeTabView.swift in Sources */,
+				CDF80A3C281E83AE00E0765C /* ContentView.swift in Sources */,
+				CDF80A5E281FAD3F00E0765C /* StructBox.swift in Sources */,
+				CDF80A3A281E83AE00E0765C /* SwiftFlashCard_NaviApp.swift in Sources */,
+				CD52732B2822478B00003BE5 /* DataBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDF80A42281E83B000E0765C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDF80A43281E83B000E0765C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDF80A45281E83B000E0765C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftFlashCard_Navi/Preview Content\"";
+				DEVELOPMENT_TEAM = B9HX5RRRUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ADAM.SwiftFlashCard-Navi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDF80A46281E83B000E0765C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftFlashCard_Navi/Preview Content\"";
+				DEVELOPMENT_TEAM = B9HX5RRRUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ADAM.SwiftFlashCard-Navi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDF80A31281E83AE00E0765C /* Build configuration list for PBXProject "SwiftFlashCard_Navi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF80A42281E83B000E0765C /* Debug */,
+				CDF80A43281E83B000E0765C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF80A44281E83B000E0765C /* Build configuration list for PBXNativeTarget "SwiftFlashCard_Navi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF80A45281E83B000E0765C /* Debug */,
+				CDF80A46281E83B000E0765C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDF80A2E281E83AE00E0765C /* Project object */;
+}
